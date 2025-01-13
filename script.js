@@ -28,7 +28,7 @@ setTimeout(() => {
     $ball.className = 'ball';
     $ball.innerText = bonus;
     setColor(5, $ball);
-    $results.appendChild($ball);
+    $bonus.appendChild($ball);
 }, 7000);
 
 function setColor(i, $ball) {

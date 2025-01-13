@@ -1,3 +1,11 @@
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+}
 .ball {
     display: inline-block;
     border: 1px solid black;
@@ -6,7 +14,7 @@
     font-size: 20px;
     text-align: center;
     border-radius: 100%;
-    line-height: 30px;
+    line-height: 40px; /* Center text vertically */
     margin-right: 10px;
     color: white;
 }
